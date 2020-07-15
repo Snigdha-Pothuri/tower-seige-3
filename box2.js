@@ -34,7 +34,7 @@ class Box2  {
      }
     } 
     score (){
-      if (this.Visibility<0 ) {
+      if(this.body.speed>4 && this.body.speed<100){
         score = score+1;
       }
        }

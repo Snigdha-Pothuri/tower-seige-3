@@ -55,7 +55,7 @@ function draw() {
  
   fill ("black") 
   textSize(30)
- text("SCORE"+score,50,40); 
+ text("SCORE : "+score,50,40); 
 
 //display
   box1.display();
